@@ -1,6 +1,13 @@
 package pl.mkulawik.lambda;
 
-public class Test {
+import java.io.Serializable;
+
+public class Test implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String args[]) {
 		Test tester = new Test();
 
@@ -19,6 +26,7 @@ public class Test {
 
 		message1.print("Message1");
 		message2.print("Message2");
+		message2.print("Message2 again");
 	}
 
 	interface Operation {
