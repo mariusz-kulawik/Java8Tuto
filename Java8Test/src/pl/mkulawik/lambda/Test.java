@@ -7,7 +7,7 @@ public class Test {
 		Operation addition = (int a, int b) -> a + b;
 		Operation subtraction = (a, b) -> a - b;
 		Operation multiplication = (a, b) -> a * b;
-		Operation division = (int a, int b) -> a / b;
+		Operation division = (a, b) -> a / b;
 
 		System.out.println("9 + 3 = " + tester.operate(9, 3, addition));
 		System.out.println("9 - 3 = " + tester.operate(9, 3, subtraction));
